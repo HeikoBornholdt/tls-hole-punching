@@ -4,7 +4,9 @@ Proof of Concept (PoC) for Low-Latency TLS 1.3-aware Hole Punching.
 While existing approaches perform UDP Hole Punching and the cryptographic TLS-Handshake in sequence, we perform them in parallel.
 Our approach is intended to be used with UDP-based protocols that are secured by TLS (like QUIC, or DTLS).
 As an example, this PoC uses QUIC as application protocol.
-More information about our approach can be find in the following publication: **TODO**
+More information about our approach can be find in the following publication:
+
+> Heiko Bornholdt, Kevin Röbert, and Mathias Fischer. “Low-Latency TLS 1.3-Aware Hole Punching.” In: _ICC 2023 - IEEE International Conference on Communications_. IEEE International Conference on Communications (ICC) 2023. Rome, Italy: IEEE, 2023, pages 1481–1486. doi: [10.1109/ICC45041.2023.10279326](https://doi.org/10.1109/ICC45041.2023.10279326).
 
 Our PoC consists of...
 * a RendezvousServer that helps in traversing any present NATs,
